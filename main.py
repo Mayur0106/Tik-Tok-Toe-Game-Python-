@@ -35,7 +35,7 @@ turn = 1
 print("Welocome to Tic Tac Toe ")
 while(True):
     printBorad(xstate,zstate)
-    if(turn ==1):
+    if(turn==1):
         print("X's Chance ")
         value=int (input("Please enter a value: "))
         xstate[value]=1
