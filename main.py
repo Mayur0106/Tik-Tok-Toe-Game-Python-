@@ -50,5 +50,5 @@ while(True):
         break
     
 
-    turn =1- turn 
+    turn =1 - turn 
     
