@@ -10,7 +10,7 @@ def printBorad(xstate,zstate):
     five = 'x'if xstate[5] else('O' if zstate[5] else 5 )
     six = 'x'if xstate[6] else('O' if zstate[6] else 6  )
     seven = 'x'if xstate[7] else('O' if zstate[7] else 7 )
-    eight ='x'if xstate[8] else('O' if zstate[8] else 8)
+    eight ='x'if xstate[8] else('O' if zstate[8] else 8 )
     print(f"{zero} | {one} | {two}")
     print(f"--|---|-- ")
     print(f"{three } | {four} | {five}")
