@@ -4,7 +4,7 @@ def sum(a,b,c):
 def printBorad(xstate,zstate):
     zero = 'x'if xstate[0] else('O' if zstate[0] else 0 )
     one = 'x'if xstate[1] else('O' if zstate[1] else 1 )
-    two = 'x'if xstate[2] else('O' if zstate[2] else 2 )
+    two = 'x'if xstate[2] else('O' if zstate[2] else 2)
     three = 'x'if xstate[3] else('O' if zstate[3] else 3 )
     four = 'x'if xstate[4] else('O' if zstate[4] else 4)    
     five = 'x'if xstate[5] else('O' if zstate[5] else 5)
