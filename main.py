@@ -32,7 +32,7 @@ def checkWIn(xstate,zstate):
 zstate=[0,0,0,0,0,0,0,0,0]
 xstate=[0,0,0,0,0,0,0,0,0]
 turn = 1
-print("Welocome to Tic Tac Toe ")
+print("Welocome to Tic Tac Toe")
 while(True):
     printBorad(xstate,zstate)
     if(turn==1):
