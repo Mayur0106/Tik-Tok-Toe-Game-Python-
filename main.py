@@ -37,7 +37,7 @@ x=input('Enter the first player(x) : ')
 y=input('Enter the second player(O) : ')
 x=x.upper()
 y=y.upper()
-print('')
+print(' ')
 turn = 1
 k=1
 while(True):
